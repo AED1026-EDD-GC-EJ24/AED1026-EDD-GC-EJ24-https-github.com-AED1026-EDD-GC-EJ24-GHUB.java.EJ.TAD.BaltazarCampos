@@ -1,3 +1,4 @@
 ./miPrincipal/Principal.java
+./miPrincipal/AppRational.java
 ./miPrincipal/Rational.java
 ./miTest/AppTest.java
