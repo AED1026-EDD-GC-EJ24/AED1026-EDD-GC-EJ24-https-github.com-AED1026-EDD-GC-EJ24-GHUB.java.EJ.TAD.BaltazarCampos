@@ -1,4 +1,7 @@
+./miPrincipal/Posicionilegalexeption.java
 ./miPrincipal/Principal.java
 ./miPrincipal/AppRational.java
 ./miPrincipal/Rational.java
+./miPrincipal/AppMatriz.java
+./miPrincipal/Matriz.java
 ./miTest/AppTest.java
