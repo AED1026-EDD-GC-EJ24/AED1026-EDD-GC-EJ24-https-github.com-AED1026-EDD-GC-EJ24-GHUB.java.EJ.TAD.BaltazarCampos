@@ -1,14 +1,15 @@
 package miPrincipal;
-public class AppCadena;{
-    public static void menu(){
+public class AppCadena {
+    public static void menu() {
         System.out.println("======================");
         System.out.println("OPERACIONES CON CADENA");
         System.out.println("======================");
-        Cadena c= new Cadena();
-        c.agregarFinal('N');
-        c.agregarFinal('o');
-        c.agregarFinal('e');
-        c.agregarFinal('l');
+        Cadena c = new Cadena();
+        c.agregarFinal('B');
+        c.agregarFinal('A');
+        c.agregarFinal('L');
+        c.agregarFinal('T');
+        c.agregarFinal('A');
         System.out.println("VALOR DE CADENA C; "+c.toString());
         System.out.println("VALOR DE CADENA C INVERTIDA; "+c.invertir());
         System.out.println("VALOR DE CADENA C ; "+c);

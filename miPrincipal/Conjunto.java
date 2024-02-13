@@ -44,14 +44,14 @@ public class Conjunto {
 		{
 			int k = 0;
 			while (!cto[k].equals(elemento))
-			k++;
+				k++;
 			/* desde el elemento k hasta la última
 			posición
 			* mueve los elementos una posición a la
 			izquierta
 			*/
 			for(;k<cardinal;k++)
-			cto[k] = cto[k+1];
+				cto[k] = cto[k+1];
 			cardinal--;
 		}
 	}
@@ -90,7 +90,6 @@ public class Conjunto {
 	  if (n<=cardinal)
 		return cto[--n];
 	  else
-		throw new Exception("Fuera deRango");
+		throw new Exception("Fuera de Rango");
 	}
-
 }

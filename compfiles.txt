@@ -1,7 +1,7 @@
-./miPrincipal/Posicionilegalexeption.java
+./miPrincipal/Conjunto.java
+./miPrincipal/AppConjunto.java
 ./miPrincipal/Principal.java
 ./miPrincipal/AppRational.java
 ./miPrincipal/Rational.java
-./miPrincipal/AppMatriz.java
-./miPrincipal/Matriz.java
+./miPrincipal/PosicionIlegalException.java
 ./miTest/AppTest.java

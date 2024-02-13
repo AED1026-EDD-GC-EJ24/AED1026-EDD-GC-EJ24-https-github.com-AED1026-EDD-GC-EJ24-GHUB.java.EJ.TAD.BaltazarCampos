@@ -28,24 +28,24 @@ public class Principal {
         
             opc=cosola.nextInt();
             switch (opc){
-            case 1:
-            AppRational.menu();
-            break;
-            case 2:
-            case 3:
-            AppConjunto.menu();
-            break;
-            case 4:
-            case 5:
-            case 6:
-            AppCadena.menu();
-            break;
-            case 7:
-            case 8:
-            case 9:
-            case 10:
+                case 1:
+                    AppRational.menu();
+                    break;
+                case 2:
+                case 3:
+                    AppConjunto.menu();
+                    break;
+                case 4:
+                case 5:
+                case 6:
+                    AppCadena.menu();
+                    break;
+                case 7:
+                case 8:
+                case 9:
+                case 10:
             default:
-            System.out.println(" Valor incorrecto, intente de nuevo ");
+            System.out.println("Valor incorrecto, intente de nuevo");
             }
         }while(opc!=0);
     }
