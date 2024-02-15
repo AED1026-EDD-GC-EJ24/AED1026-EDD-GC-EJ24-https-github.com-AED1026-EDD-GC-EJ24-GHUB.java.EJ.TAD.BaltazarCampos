@@ -11,6 +11,6 @@ public class AppTriangulo{
         double lados[] = t1.longLados();
         System.out.println("Lado 1:"+lados[0]);
         System.out.println("Lado 2:"+lados[1]);
-        System.out.println("Lado 3:"+lados[2]);
+        System.out.println("Lado 1:"+lados[2]);
     }
 }
