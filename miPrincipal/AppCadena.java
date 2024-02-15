@@ -5,13 +5,11 @@ public class AppCadena {
         System.out.println(" OPERACIONES CON CADENA ");
         System.out.println("_________________________");
         Cadena c=new Cadena();
-        c.agregarFinal('M');
-        c.agregarFinal('a');      
-        c.agregarFinal('r');   
-        c.agregarFinal('i');   
-        c.agregarFinal('a');
-        //c.agregarFinal('&'); //No debe ejecurtase porque tiene 
-                               //un caracter inválido
+        c.agregarFinal('B');
+        c.agregarFinal('A');      
+        c.agregarFinal('L');   
+        c.agregarFinal('T');   
+        c.agregarFinal('A');
         System.out.println("Valor de la cadena c:"+c.toString());
         System.out.println("Valor de la cadena c invertida:"+c.invertir());
         c.borrarInicio();
