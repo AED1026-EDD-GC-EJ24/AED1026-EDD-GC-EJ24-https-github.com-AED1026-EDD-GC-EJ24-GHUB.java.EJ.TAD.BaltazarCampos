@@ -35,7 +35,7 @@ public class Principal
                 AppMatriz.menu();
                 break;
             case 3:
-            AppConjunto.menu();
+                AppConjunto.menu();
                 break;
             case 4:
             case 5:
@@ -45,9 +45,10 @@ public class Principal
             case 7:
             case 8:
             case 9:
-            AppPunto.menu();
+                AppPunto.menu();
                 break;
             case 10:
+                AppTriangulo.menu();
             default:
                 System.out.println("Valor incorrecto, intente de nuevo");
             }
