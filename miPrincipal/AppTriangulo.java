@@ -4,9 +4,9 @@ public class AppTriangulo{
         System.out.println("==========================");
         System.out.println("Operaciones con triangulo");
         System.out.println("==========================");
-        punto v1 = new Punto(1,2);
-        punto v1 = new Punto(1,6);
-        punto v1 = new Punto(4,4);
+        Punto v1 = new Punto(1,2);
+        Punto v2 = new Punto(1,6);
+        Punto v3 = new Punto(4,4);
         Triangulo t1 = new Triangulo(v1,v2,v3);
         double lados[] = t1.longLados();
         System.out.println("Lado 1:"+lados[0]);

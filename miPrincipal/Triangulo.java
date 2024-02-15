@@ -1,6 +1,6 @@
 package miPrincipal;
 public class Triangulo {
-    private punto v1,v2,v3;
+    private Punto v1,v2,v3;
     private double longLados[] = new double[3];
     public Triangulo(Punto v1, Punto v2, Punto v3){
         this.v1 = v1;
